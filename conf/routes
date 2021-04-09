@@ -1,0 +1,4 @@
+GET           /                                     controllers.GatewayController.index
+POST          /init                                 controllers.GatewayController.paymentInit
+POST          /notification                         controllers.GatewayController.paymentNotification
+GET           /completed/:ref                       controllers.GatewayController.paymentCompleted(ref, status)

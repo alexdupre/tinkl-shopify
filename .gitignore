@@ -1,0 +1,9 @@
+# sbt
+/.bsp
+target/
+
+# IDEA
+/.idea
+
+# test
+/test
